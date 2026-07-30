@@ -31,7 +31,7 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-          - name: Real Estate PySpark Card
+      - name: Real Estate PySpark Card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
